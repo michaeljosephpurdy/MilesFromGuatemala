@@ -22,7 +22,7 @@ pygame.init()
 global FPS
 FPS = 30
 fpsClock = pygame.time.Clock()
-windowSurfaceObj = pygame.display.set_mode((500, 185),FULLSCREEN)
+windowSurfaceObj = pygame.display.set_mode((500, 185))
 pygame.display.set_caption('Miles from Guatemala!')
 pygame.mouse.set_visible(False)
 pygame.joystick.init()
